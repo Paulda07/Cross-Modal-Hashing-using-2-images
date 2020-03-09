@@ -1,0 +1,10 @@
+This Model is an adaptation of jiangqy/DCMH-CVPR2017 project on Deep Cross Modal Hashing.
+
+In this project, I converted the image-text modality present in the DCMH-CVPR2017 work to a image-image modality.
+
+The dataset is a composed of 100 iris pictures (left iris) and 100 face pictures. These 100 are of 10 different people and assigned 10 labels accordingly.
+
+To run this project- Run the demo.py file after download.
+
+
+The retrieval accuracy obtained on this small dataset (10 people, 100 images iris, 100 images face) was 100% from face->iris and 97.8% from iris->face retrievals.
